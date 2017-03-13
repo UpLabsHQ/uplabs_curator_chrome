@@ -3,7 +3,7 @@ Uplabs chrome extension for curators
 
 ### How to install it into chrome
 
-1. download [extension code](https://github.com/UpLabsHQ/uplabs/archive/master.zip)
+1. download [extension code](https://github.com/UpLabsHQ/uplabs_curator_chrome/archive/master.zip)
 2. extract archive
 3. go to chrome extension settings `chrome://extensions/`
 4. select checkbox 'Developer mode' on right top corner
