@@ -11,3 +11,5 @@ Uplabs chrome extension for curators
 6. select folder where you unpacked archive
 
 you are done!💥  and Uplabs icon appears on you bar!
+
+![alt text](https://media.giphy.com/media/3og0IMBMV76uwYVppm/giphy.gif)
