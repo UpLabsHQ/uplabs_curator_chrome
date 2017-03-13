@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Uplabs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,600" rel="stylesheet">
+  </head>
+  <body>
+    <div class='popup'>
+      <div class='popup-header'>
+        <h1 class='popup-title'>New submission</h1>
+        <span class='popup-close' id='popup-close'></span>
+      </div>
+      <div class='popup-body'>
+        <form>
+          <label class="popup-label">Showcase</label>
+          <select class="popup-select" id='up-sites'>
+            <option value="ios">iOS</option>
+            <option value="material">Android</option>
+            <option value="site">Web</option>
+          </select>
+          <div class='popup-actions clearfix'>
+            <button type='button' id='popup-cancel' class='btn btn-cancel btn-left'>Cancel</button>
+            <button type='button' id='popup-submit'class='btn btn-submit btn-right'>Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+html {
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+body {
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+}
+.popup {
+  border: 2px solid #c7c7c7;
+  border-radius: 5px;
+  min-width: 430px;
+}
+.popup-header {
+  position: relative;
+  background: #f5f6f7;
+  padding: 2px;
+}
+.popup-title {
+  text-align: center;
+  font-size: 1.4rem;
+}
+.popup-close {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  height: 10px;
+  width: 10px;
+  cursor: pointer;
+}
+.popup-close::before {
+  font-size: 1.6rem;
+  content: '+';
+  display: block;
+  transform: rotate(45deg);
+  color: #c2c3c4;
+}
+.popup-body {
+  padding: 36px 20px 15px 20px;
+}
+.popup-label {
+  color: #c2c3c4;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.popup-select {
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 10px;
+  height: 25px;
+  margin-top: 0px;
+}
+.popup-actions {
+  margin: 10px 0;
+}
+.btn {
+  padding: 6px 12px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  border: 0;
+  outline: none;
+  transition: box-shadow 10ms ease;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 1px 1px 1px 0px #ccc;
+}
+.btn-cancel {
+  background: #c2c3c4;
+  color: black;
+}
+.btn-submit {
+  background: #84cdd9;
+  color: white;
+}
+.btn-left {
+  float: left;
+}
+.btn-right {
+  float: right;
+}
+.clearfix::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
