@@ -10,7 +10,7 @@
     var popupActions = {
       dismiss: function() { window.close(); },
       submit:  function(e) {
-        var submissionUrl = 'https://' + page.select.value + '.uplabs.com/submit?url=' + tab.url;
+        var submissionUrl = 'https://www.uplabs.com/submit?url=' + tab.url + '&category=' + page.select.value;
         if (e.metaKey) {
           chrome.tabs.create({ url: submissionUrl });
         } else {
